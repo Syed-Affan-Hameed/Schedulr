@@ -34,6 +34,7 @@ const allowedOrigins = [
   );
 
  // app.use("/api/v1/schedulr",schedulrRouter);
+ //This app is for me to better manage my time using my AI Agent
   app.listen(PORT,()=>{
     console.log("Server is running in the port "+ PORT);
   });
