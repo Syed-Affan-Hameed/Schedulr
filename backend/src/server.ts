@@ -40,5 +40,5 @@ const allowedOrigins = [
   });
 
   app.get("/",(req,res)=>{
-    res.send("Welcome to the server");
+    res.send("Welcome to the scheduler");
   });
